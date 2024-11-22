@@ -8,38 +8,40 @@ const userSchema = new mongoose.Schema(
   {
     first_name: {
       type: String,
-      required: true,
       trim: true,
     },
     last_name: {
       type: String,
-      required: true,
       trim: true,
     },
     job_role: {
       type: String,
-      required: true,
       trim: true,
     },
     website_url: {
       type: String,
-      required: true,
       trim: true,
     },
     linkedin_url: {
       type: String,
-      required: true,
       trim: true,
     },
     email: {
       type: String,
-      required: true,
       trim: true,
       unique: true,
       index: true,
     },
 
-    password: {
+    otp_code: {
+      type: String,
+      trim: true,
+    },
+    profile_summary: {
+      type: String,
+      trim: true,
+    },
+    profile_picture: {
       type: String,
       trim: true,
     },

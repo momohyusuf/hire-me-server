@@ -1,5 +1,5 @@
 // Import the 'jsonwebtoken' library.
-const jwt = require('jsonwebtoken');
+const jwt = require("jsonwebtoken");
 
 /**
  * Asynchronously generates a JSON Web Token (JWT) using the provided user information.
